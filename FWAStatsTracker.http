@@ -1,0 +1,11 @@
+@FWAStatsTracker_HostAddress = http://localhost:5098
+
+GET {{FWAStatsTracker_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{FWAStatsTracker_HostAddress}}/?tag=LGQJYLPY
+Accept: application/json
+
+###
